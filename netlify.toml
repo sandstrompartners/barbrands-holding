@@ -5,3 +5,8 @@
   publish = "dist"
 
 [[plugins]]
+  [plugins.inputs.postBuild]
+    enable = true
+
+  [plugin.inputs]
+    enable = false
