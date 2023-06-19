@@ -35,6 +35,7 @@ html {
 }
 
 h1 {
+  color: #fff;
   font-family: var(--main-family);
   padding-top: 5%;
   margin: 0;
