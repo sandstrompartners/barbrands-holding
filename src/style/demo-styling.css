@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap'); */
 
 :root {
   /* --main-family: 'Archivo Black', sans-serif; */
   /* --main-family: 'Archivo Black', sans-serif; */
   /* --main-family: 'Della Respira', serif; */
   /* --main-family: 'Alfa Slab One', serif; */
-  --main-family: 'Righteous', serif;
+  /* --main-family: 'Righteous', serif; */
   /* --color-bg: linear-gradient(180deg, #faf7dd 0%, #fff6c5 100%); */
-  --color-bg: #ffc800;
+  --color-bg: #90c4bf;
 
   /* Controls the blob blur gradient colors within the main tag's svg */
   /* --top-right-blur-1: #fcf2b7;
@@ -35,8 +35,40 @@ html {
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  height: 95vh;
+  min-height: 100vh;
+  position: relative;
   text-align: center;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  inset: 0;
+}
+
+img {
+  display: block;
+  height: auto;
+  width: 80vw;
+
+}
+
+.legal {
+  bottom: 1em;
+  color: #7db0ac;
+  display: block;
+  font-size: clamp(0.6rem, 0.34vw + 0.91rem, 0.85rem);
+  line-height: 1;
+  margin: 0 auto;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+@media only screen and (min-width: 48em) {
+  img {
+    width: 45vw;
+  }
 }
 
 h1 {
