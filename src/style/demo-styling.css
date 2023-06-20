@@ -74,11 +74,9 @@ img {
 }
 
 h1 {
-  color: var(--color-text);
-  font-family: var(--main-family);
-  font-weight: normal;
-  letter-spacing: -0.03em;
-  line-height: 0.75;
-  padding-top: 5%;
-  margin: 0;
+  color: var(--color-bg);
+  font-size: 0.5rem;
+  line-height: 1;
+  padding: 0;
+  margin: 0 0 -1rem;
 }
